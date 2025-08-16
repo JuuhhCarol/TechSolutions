@@ -479,7 +479,7 @@ textarea.w-select {
 }
 .w-file-upload-error-msg {
   display: inline-block;
-  color: #ea384c;
+  color: #007acc;
   padding: 2px 0;
 }
 .w-file-upload-info {
