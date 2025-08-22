@@ -30,6 +30,7 @@
 
 
 
+
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;
@@ -2217,7 +2218,7 @@ blockquote {
   float: none;
   color: #fff;
   text-transform: uppercase;
-  background-color: #dc5f00;
+  background-color: #007ACC;
   border: 1px solid #242424;
   border-radius: 5px;
   margin-top: 20px;
