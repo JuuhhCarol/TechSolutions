@@ -7,6 +7,29 @@
   --grey: #1e1e1e;
 }
 
+.main-title {
+  border-bottom: 1px solid var(--default);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+}
+
+.sitemap-wrapper {
+  display: flex;
+  justify-content: center; /* centraliza horizontal */
+  align-items: center; /* centraliza vertical */
+  text-align: center;
+  padding: 20px 0; /* só um pouco de espaço em cima e baixo */
+  height: auto; /* deixa altura automática, sem forçar 100% */
+  min-height: 0; /* remove qualquer mínimo que cause excesso */
+}
+
+
+
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;
@@ -1494,16 +1517,6 @@ blockquote {
   padding-top: 150px;
 }
 
-.main-title {
-  border-bottom: 1px solid var(--default);
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 50px;
-  font-size: 80px;
-  font-weight: 600;
-  line-height: 50px;
-}
-
 .services-item {
   border-bottom: 1px solid var(--border-color);
   justify-content: flex-start;
@@ -1992,6 +2005,7 @@ blockquote {
   border-radius: 5px;
   margin-left: 20px;
   padding: 10px;
+  font-size: 16px;
 }
 
 .clients-section, .team-section {
@@ -3107,13 +3121,17 @@ blockquote {
 
   .inner-sitemap {
     display: block;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .sitemap-heading {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 60px;
+    font-size: 32px;
     line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
   }
 
   .stemap-text {
