@@ -2039,7 +2039,6 @@ blockquote {
 .team-image-wrapp {
   border: 1px solid var(--border-color);
   background-color: var(--black);
-  color: #1d1d1d;
   text-align: center;
   border-radius: 5px;
   padding: 60px 20px 0;
@@ -2062,7 +2061,7 @@ blockquote {
 .team-img {
   object-fit: cover;
   width: auto;
-  height: 247px;
+  height: 270px;
 }
 
 .team-heading {
